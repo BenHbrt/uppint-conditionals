@@ -1,3 +1,5 @@
+@import './styleData/variables.scss';
+
 html {
     box-sizing: border-box;
 }
@@ -15,3 +17,43 @@ body {
     user-select: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-image: url('./images/other/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    padding: $padding-container;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: $padding-container;
+
+    &_title {
+        background-color: $color-background;
+        border: $border-container;
+        border-radius: $border-radius-container;
+        padding-bottom: ($padding-container - 0.5rem);
+
+        & > h1 {
+            text-align: center;
+        }
+
+        &_buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+
+    &_container {
+        background-color: $color-background;
+        border: $border-container;
+        border-radius: $border-radius-container;
+        padding: ($padding-container - 0.5rem);
+    }
+}
+// Minimun screen-size: 320px

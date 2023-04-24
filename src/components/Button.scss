@@ -1,0 +1,22 @@
+@import '../styleData/variables.scss';
+
+$button-padding: 10px;
+
+.button {
+    border: $border-button;
+    padding: 0 $button-padding;
+    border-radius: $button-padding;
+    transition: background-color 0.5s;
+
+    &-selected {
+        background-color: $selected-color;
+    }
+
+    &-unselected {
+
+        &:hover {
+            cursor: pointer;
+            background-color: $selected-color;
+        }
+    }
+}
