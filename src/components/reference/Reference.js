@@ -11,9 +11,9 @@ const Reference = ({ reference, setReference }) => {
     return (
         <div className='reference'>
             <div className="reference_buttons">
-                <Button name="Second Conditional" display={reference} func={() => setReference("Second Conditional")} />
-                <Button name="Third Conditional" display={reference} func={() => setReference("Third Conditional")} />
-                <Button name="Mixed Conditional" display={reference} func={() => setReference("Mixed Conditional")} />
+                <Button name="Second" display={reference} func={() => setReference("Second")} />
+                <Button name="Third" display={reference} func={() => setReference("Third")} />
+                <Button name="Mixed" display={reference} func={() => setReference("Mixed")} />
             </div>
             <div className="reference_title">{data.title}</div>
             <div className="reference_description">{data.description}</div>
@@ -23,7 +23,7 @@ const Reference = ({ reference, setReference }) => {
                 <div className="reference_example_form">{data.form}</div>
             </div>
             <div className="reference_further">
-                <div>Further examples</div>
+                <div className="reference_further_title">Further examples:</div>
                 {
                     data.furtherExamples.map((example) => {
                         return <div className="reference_further_example"><span dangerouslySetInnerHTML={{__html: example.text}}></span> <i>(<span>{example.note}</span>)</i></div>

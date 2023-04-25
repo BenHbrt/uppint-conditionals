@@ -1,11 +1,27 @@
 @import '../../styleData/variables.scss';
 
 .reference {
+
+    &_button {
+        // &::after {
+        //     content: "GGGGGG";
+        // }
+    }
     
     &_buttons {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-bottom: ($padding-container - 0.5rem);
+    }
+
+    &_title {
+        font-weight: bold;
+        margin-bottom: $text-spacing;
+    }
+
+    &_description {
+        margin-bottom: $text-spacing;
     }
     
     &_example {
@@ -16,6 +32,54 @@
 
         & > img {
             width: 100%;
+            border-radius: ($border-radius-container/2);
+            margin-bottom: ($text-spacing/2);
+        }
+
+        &_form {
+            margin-top: ($text-spacing/2);
+            margin-bottom: $text-spacing;
+            font-weight: bold;
+            border: $border-container;
+            padding: ($padding-container - 1rem);
         }
     }
+
+    &_further {
+        margin-bottom: $text-spacing;
+
+        &_title {
+            margin-bottom: ($text-spacing/2);
+        }
+
+        &_example:not(:last-child) {
+            margin-bottom: ($text-spacing/2);
+        }
+    }
+
+    &_note {
+        font-size: 0.8rem;
+    }
+}
+
+.highlighted {
+    padding: 0 5px;
+    border-radius: 8.5px;
+    margin: 0 -0.2rem;
+}
+
+.green {
+    background-color: #00ff01;
+}
+
+.orange {
+    background-color: #fe8500;
+}
+
+.blue {
+    background-color: #0cc6df;
+}
+
+.pink {
+    background-color: #fe01b4;
 }

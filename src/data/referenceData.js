@@ -3,7 +3,7 @@ const referenceData = {
         title: "Second Conditional",
         description: "This is used to talk about a present or future hypothetical state or action and its hypothetical result in the present or future. We use this for things which we think are impossible or extremely unlikely.",
         exampleImage: "second_conditional.jpg",
-        exampleText: "If I <strong>won</strong> the lottery, I <strong>would buy</strong> a fast car.",
+        exampleText: "If I <strong class='highlighted green'>won</strong> the lottery, I <strong class='highlighted orange'>would buy</strong> a fast car.",
         form: "If + past, would + bare infinitive",
         furtherExamples: [
             {
