@@ -1,1 +1,21 @@
 @import '../../styleData/variables.scss';
+
+.reference {
+    
+    &_buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    &_example {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        & > img {
+            width: 100%;
+        }
+    }
+}

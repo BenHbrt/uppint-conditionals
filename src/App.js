@@ -9,6 +9,7 @@ import Button from './components/Button';
 function App() {
 
   const [display, setDisplay] = useState('Quiz')
+  const [reference, setReference] = useState('Second Conditional')
 
   return (
     <div className="App">
@@ -22,7 +23,7 @@ function App() {
       </div>
       <div className="App_container">
         {display === "Quiz" && <Quiz />}
-        {display === "Reference" && <Reference />}
+        {display === "Reference" && <Reference reference={reference} setReference={setReference} />}
         {display === "Credits" && <Credits />}
       </div>
     </div>
