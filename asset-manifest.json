@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/uppint-conditionals/static/css/main.99446cb5.css",
-    "main.js": "/uppint-conditionals/static/js/main.2717478e.js",
+    "main.css": "/uppint-conditionals/static/css/main.6fc12348.css",
+    "main.js": "/uppint-conditionals/static/js/main.1e6bf4de.js",
     "static/media/background.jpg": "/uppint-conditionals/static/media/background.a7f4d2c31c0f8a1c0bea.jpg",
     "static/media/mixed_conditional.jpg": "/uppint-conditionals/static/media/mixed_conditional.f77d0cb840b3a71101d0.jpg",
     "static/media/second_conditional.jpg": "/uppint-conditionals/static/media/second_conditional.694b12f13f222f38d295.jpg",
     "static/media/third_conditional.jpg": "/uppint-conditionals/static/media/third_conditional.0af39fb99e86fad9ae5d.jpg",
     "index.html": "/uppint-conditionals/index.html",
-    "main.99446cb5.css.map": "/uppint-conditionals/static/css/main.99446cb5.css.map",
-    "main.2717478e.js.map": "/uppint-conditionals/static/js/main.2717478e.js.map"
+    "main.6fc12348.css.map": "/uppint-conditionals/static/css/main.6fc12348.css.map",
+    "main.1e6bf4de.js.map": "/uppint-conditionals/static/js/main.1e6bf4de.js.map"
   },
   "entrypoints": [
-    "static/css/main.99446cb5.css",
-    "static/js/main.2717478e.js"
+    "static/css/main.6fc12348.css",
+    "static/js/main.1e6bf4de.js"
   ]
 }
