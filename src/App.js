@@ -9,7 +9,7 @@ import Button from './components/Button';
 function App() {
 
   const [display, setDisplay] = useState('Quiz')
-  const [reference, setReference] = useState('Second Conditional')
+  const [reference, setReference] = useState('Second')
 
   return (
     <div className="App">

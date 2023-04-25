@@ -1,5 +1,5 @@
 const referenceData = {
-    "Second Conditional": {
+    "Second": {
         title: "Second Conditional",
         description: "This is used to talk about a present or future hypothetical state or action and its hypothetical result in the present or future. We use this for things which we think are impossible or extremely unlikely.",
         exampleImage: "second_conditional.jpg",
@@ -16,7 +16,7 @@ const referenceData = {
             }
         ]
     },
-    "Third Conditional": {
+    "Third": {
         title: "Third Conditional",
         description: "",
         exampleImage: "",
@@ -33,7 +33,7 @@ const referenceData = {
             }
         ]
     },
-    "Mixed Conditional": {
+    "Mixed": {
         title: "Mixed Conditional",
         description: "",
         exampleImage: "",
